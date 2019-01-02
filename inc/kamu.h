@@ -3,6 +3,7 @@
 
 #include<stdio.h>
 
+
 void ya_kamu(){
   printf("ya kamu !!\n");
 }
