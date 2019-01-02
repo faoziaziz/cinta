@@ -16,11 +16,7 @@ void fun(){
   printf("%d\n", x);
 }
 
-void funp(){
-  int x=6;
-  process_var_point(x);
-  printf("%d\n", x);
-}
+void process_var(int*xp)
 
 int main()
 {
