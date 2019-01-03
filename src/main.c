@@ -1,5 +1,5 @@
 #include "kamu.h"
-
+#include "linked.h"
 
 int var;
 void process_var(int x){

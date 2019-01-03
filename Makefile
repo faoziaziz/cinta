@@ -7,7 +7,7 @@ TARGET = build
 
 kompile :
 	#${CC} ${SOURCE}/main.c -o ${TARGET}/kamu -I${HEADER}
-	${CC} ${SOURCE}/lecture2.c -o ${TARGET}/kamu -I${HEADER}
+	${CC} ${SOURCE}/linked_list.c -o ${TARGET}/kamu -I ${HEADER}
 
 jalankan:
 	./${TARGET}/kamu
